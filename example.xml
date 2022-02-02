@@ -1,4 +1,16 @@
+<?xml version="1.0" ?>
+
 <person>
-  <age></age>
+  <name>Jeffrey R. Bennett</name>
+  <nickname>Jeff</nickname>
+  <age>13</age>
+  <sexuality>pansexual</sexuality>
   
+  <favGroup>
+    <favorite type="color" value="blue" />
+  </favGroup>
+  
+  <socialMedias>
+    <socialMedia type="email" value="jeffreyrb03@gmail.com" />
+  </socialMedias>
 </person>
