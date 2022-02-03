@@ -1,16 +1,25 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <person>
-  <name>Jeffrey R. Bennett</name>
-  <nickname>Jeff</nickname>
-  <age>13</age>
-  <sexuality>pansexual</sexuality>
+  <name>John Doe</name> <!-- The person's name -->
+  <nickname>Johnny</nickname> <!-- The person's nickname -->
+  <age>13</age> <!-- The person's age -->
+  <sexuality>heterosexual</sexuality> <!-- The person's sexuality -->
+  <language>English, Spanish</language> <!-- Languages that the person can speak. Type it in CSV syntax. -->
   
-  <favGroup>
-    <favorite type="color" value="blue" />
+  <!-- The person's favorite things -->
+  <favGroup> 
+    <favorite type="color" value="blue" /> <!-- The person's fav color. Can accept rgb and whatever, but colors in word form are recommended. -->
+    <!-- Add other things that you like -->
   </favGroup>
   
   <socialMedias>
-    <socialMedia type="email" value="jeffreyrb03@gmail.com" />
+    <socialMedia type="email" value="person@example.com" />
+     <socialMedia type="instagram" value="instagram link here" />
+     <socialMedia type="youtube" value="youtube link here" />
+     <socialMedia type="roblox" value="roblox link here" />
+     <socialMedia type="website" value="https://example.com" />
+    <!-- Add more if you want -->
   </socialMedias>
+  
 </person>
