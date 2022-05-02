@@ -24,7 +24,7 @@ PMDX - PersonMetadataXML
     <!-- Add other things that you like -->
   </favGroup>
   
-  <socialMedias> <!-- this is optional --!>
+  <socialMedias> <!-- this is optional -->
     <email value="johnny@example.com" />
 
      <socialMedia type="instagram" value="(instagram link here)" />
