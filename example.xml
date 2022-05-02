@@ -19,10 +19,11 @@ PMDX - PersonMetadataXML
   <isThePersonBald bald="false" /> <!-- a boolean tag. Describes if the person is bald or not -->
     
   <!-- The person's favorite things -->
-  <favGroup> 
-    <favorite type="color" value="blue" /> <!-- The person's fav color. Can accept rgb and whatever, but colors in word form are recommended. -->
+  <favThings> 
+    <favColor value="blue" /> <!-- The person's fav color. Can accept rgb and whatever, but colors in word form are recommended. -->
+    <favSubject value="math, computers" /> <!-- Basically any subject you like. Type in CSV syntax. -->
     <!-- Add other things that you like -->
-  </favGroup>
+  </favThings>
   
   <socialMedias> <!-- this is optional -->
     <email value="johnny@example.com" />
