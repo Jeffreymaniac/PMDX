@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<person>
+<!--
+
+PMDX - PersonMetadataXML
+ This is an example file to show you the syntax of PMDX.
+ For example, this file is decribing someone named John.
+
+-->
+<entity type="person">
   <name>John Doe</name> <!-- The person's name -->
   <nickname>Johnny</nickname> <!-- The person's nickname -->
   <age>13</age> <!-- The person's age -->
+  <gender>Male</gender>
   <sexuality>heterosexual</sexuality> <!-- The person's sexuality -->
   <language>English, Spanish</language> <!-- Languages that the person can speak. Type it in CSV syntax. -->
-  
+  <height>6 ft</height> <!-- This is how tall the person is. Write it in feet -->
+  <weight>120 lbs</weight>  <!-- This is how much the person weighs. Write it in pounds. -->
+  <isThePersonBald bald="false" /> <!-- a boolean tag. Describes if the person is bald or not -->
+    
   <!-- The person's favorite things -->
   <favGroup> 
     <favorite type="color" value="blue" /> <!-- The person's fav color. Can accept rgb and whatever, but colors in word form are recommended. -->
     <!-- Add other things that you like -->
   </favGroup>
   
-  <socialMedias>
-    <socialMedia type="email" value="person@example.com" />
-     <socialMedia type="instagram" value="instagram link here" />
-     <socialMedia type="youtube" value="youtube link here" />
-     <socialMedia type="roblox" value="roblox link here" />
-     <socialMedia type="website" value="https://example.com" />
+  <socialMedias> <!-- this is optional --!>
+    <email value="johnny@example.com" />
+
+     <socialMedia type="instagram" value="(instagram link here)" />
     <!-- Add more if you want -->
+
+     <website value="(enter url here)" />
+
+     <phoneNumber value="tel: (enter phone number here)" />
   </socialMedias>
   
-</person>
+</entity>
