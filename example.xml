@@ -16,7 +16,7 @@ PMDX - PersonMetadataXML
   <language>English, Spanish</language> <!-- Languages that the person can speak. Type it in CSV syntax. -->
   <height>6 ft</height> <!-- This is how tall the person is. Write it in feet -->
   <weight>120 lbs</weight>  <!-- This is how much the person weighs. Write it in pounds. -->
-  <hairColor color="brown" /> <!-- Acceptable hair colors here:  -->
+  <hairColor color="brown" /> <!-- To see acceptable hair colors, go to acceptable-hair-colors.txt  -->
     
   <!-- The person's favorite things -->
   <favThings> 
