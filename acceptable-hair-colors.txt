@@ -1,0 +1,15 @@
+This is for reference, if you want to see what hair colors you can give your person.
+
+Black
+Brown
+Half-red-white / The hair color that Todoroki from MHA has
+Red
+White
+Gray/grey
+Bald / Your person doesn't have a hair color because they are bald
+Blue
+Green
+Orange
+Purple
+Blonde
+Yellow
