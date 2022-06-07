@@ -26,14 +26,14 @@ PMDX - PersonMetadataXML
   </favThings>
   
   <socialMedias> <!-- this is optional -->
-    <email value="johnny@example.com" />
+    <socialMedia type="email" value="johnny@example.com" />
 
      <socialMedia type="instagram" value="(instagram link here)" />
     <!-- Add more if you want -->
 
-     <website value="(enter url here)" />
+     <socialMedia type="website" value="(enter url here)" />
 
-     <phoneNumber value="tel: (enter phone number here)" />
-  </socialMedias>
+     <socialMedia type="phonenumber" value="tel: (enter phone number here)" />
+  </socialMedias> <!-- See all acceptable social media types for the type attribute at acceptable-social-media-types.txt -->
   
 </entity>
