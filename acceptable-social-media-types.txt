@@ -1,0 +1,14 @@
+Here are all the acceptable types for the social medias
+
+Email
+Phonenumber
+Website
+Instagram
+Roblox
+Facebook
+Snapchat
+Reddit
+Scratch
+Github
+Tiktok
+
